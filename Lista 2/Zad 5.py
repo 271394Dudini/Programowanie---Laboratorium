@@ -10,5 +10,3 @@ def znak_wodny(image, znak):
 
 	im3 = Image.alpha_composite(obraz, znak_w) 
 	im3.show() 
-
-znak_wodny(r"Desktop\LOS ESTUDIOS\2 sem\Programowanie\Lista 2\Img zad 5\2.png",r"Desktop\LOS ESTUDIOS\2 sem\Programowanie\Lista 2\Img zad 5\6.png")

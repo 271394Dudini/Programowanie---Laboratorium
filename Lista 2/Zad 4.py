@@ -18,5 +18,3 @@ def split_pdf(file, x):
 	for j in range(q+rem):
 		nowy1.add_page(plik.pages[i*q+j])
 	nowy1.write(f"{file[:-4]}_{i+1}.pdf")
-			
-split_pdf(r"Desktop\LOS ESTUDIOS\2 sem\Programowanie\Lista 2\Pdf zad 4\Pdf_inny3.pdf",3)

@@ -11,6 +11,3 @@ def kopia_zip(dir):
 		for root,dirs,files in os.walk(dir):
 			for i in range(len(files)):
 				nowy.write(f"{root}/{files[i]}")
-		
-
-kopia_zip("Desktop/moje_dane")

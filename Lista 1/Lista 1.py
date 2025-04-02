@@ -93,3 +93,6 @@ print(f"suma elementów p {p.sum()}")
 print(f"mnożenie wektorowe {p.dot_product(r)}")
 print(f"trzeci element wektora p {p[2]}")
 print(f"sprawdzenie czy 3 należy do p {3 in p}")
+
+# raise, 
+# def __rmul__(self,other):

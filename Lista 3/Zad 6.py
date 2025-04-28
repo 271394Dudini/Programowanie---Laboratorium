@@ -20,5 +20,3 @@ def wiki():
 			webbrowser.open(f"{link}{tytuł}")
 		else:
 			return print("zła odpowiedź")
-
-wiki()

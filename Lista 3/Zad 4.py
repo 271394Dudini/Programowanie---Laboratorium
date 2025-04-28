@@ -12,5 +12,3 @@ def readqr(image):
 	det = cv2.QRCodeDetector()
 	data = det.detectAndDecode(img)
 	print(data[0])
-
-readqr(r"Desktop\kopia.png") 

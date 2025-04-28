@@ -17,5 +17,3 @@ def nawiasy(tekst):
 	if len(stos) != 0:
 		return print(False)
 	return print(True)
-
-nawiasy(r"<>{mmm()}<>")

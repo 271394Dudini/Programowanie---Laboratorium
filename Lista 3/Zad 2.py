@@ -14,7 +14,3 @@ def zmiana(path):
 		
 	print("po\n")
 	print(tekst)
-
-		
-
-zmiana(r"Desktop/Programowanie/Lista 3/Plik2.txt")

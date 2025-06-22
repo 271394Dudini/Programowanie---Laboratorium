@@ -1,5 +1,10 @@
 import pygame
 import random
+import os
+
+abspath = os.path.abspath(__file__)
+dname = os.path.dirname(abspath)
+os.chdir(dname)
 
 pygame.mixer.pre_init(frequency=44100, size=16, channels=1, buffer= 512)
 pygame.init()
